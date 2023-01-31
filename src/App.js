@@ -1,5 +1,5 @@
 function App() {
-  return <h1>Jobster</h1>
+  return <h1>JobFinder</h1>
 }
 
 export default App;
