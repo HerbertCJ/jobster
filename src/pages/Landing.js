@@ -1,6 +1,7 @@
 import main from '../assets/images/main.svg'
 import Wrapper from '../assets/wrappers/LandingPage'
 import {Logo} from '../components'
+import { Link } from 'react-router-dom'
 
 function Landing() {
   return (
@@ -17,7 +18,7 @@ function Landing() {
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet dolor provident, officia dolorum odio iure dicta distinctio, commodi ratione, quibusdam omnis. Assumenda quia, sint consectetur tenetur sequi quam architecto ullam provident nemo repellendus natus, error adipisci magni, sit aliquam iure illo ea consequatur atque modi optio cum. Corrupti, voluptates! Reiciendis.
           </p>
-          <button className='btn btn-hero'>login/register</button>
+          <Link to='/register' className='btn btn-hero'>login/register</Link>
         </div>
         <img src={main} alt="job hunt" className='main-img' />
       </div>
