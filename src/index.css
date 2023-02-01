@@ -324,3 +324,8 @@ ul {
 .Toastify__toast {
   text-transform: capitalize;
 }
+
+.logo-bigsidebar img {
+  width: 150px;
+  height: 80px;
+}
